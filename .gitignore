@@ -1,3 +1,5 @@
 node_modules/
 data/
 venv-wsei-timetable/
+.vscode/
+.expo/
