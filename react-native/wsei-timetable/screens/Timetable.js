@@ -1,0 +1,152 @@
+import * as React from 'react';
+import {
+	View,
+	Text,
+	StyleSheet,
+	FlatList,
+	Dimensions,
+	AsyncStorage,
+} from 'react-native';
+import classes from '../classes.json';
+import TimetableItem from '../components/TimetableItem';
+import FloatingButton from '../components/FloatingButton';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
+import UserStore from '../stores/UserStore';
+import { observer } from 'mobx-react';
+import LoadingScreen from './Loading';
+import { ScreenOrientation } from 'expo';
+const STORE = 'wsei-timetable::classes';
+
+const styles = StyleSheet.create({
+	container: {
+		justifyContent: 'center',
+		alignItems: 'center',
+		backgroundColor: '#F0F3F4',
+		position: 'relative',
+	},
+	actionButton: {
+		position: 'absolute',
+		zIndex: 2,
+		right: 0,
+		bottom: 0,
+	},
+});
+
+@observer
+export default class Timetable extends React.Component {
+	state = {
+		isLoading: false,
+		classes: null,
+		albumNum: null,
+	};
+
+	load = async () => {
+		try {
+			const data = await AsyncStorage.getItem(STORE);
+			if (data !== null) {
+				console.log('Data successfully loaded!')
+				this.setState({ classes: JSON.parse(data) })
+			}
+		} catch (error) {
+			console.log('Error while retrieving data')
+			console.log(error)
+		}
+	}
+
+	save = async data => {
+		try {
+			await AsyncStorage.setItem(STORE, JSON.stringify(data));
+		} catch (error) {
+			console.log('Error while saving data:')
+			console.log(error)
+		}
+	}
+
+	componentDidMount = () => {
+		Expo.ScreenOrientation.allowAsync(Expo.ScreenOrientation.Orientation.PORTRAIT);
+		this.setState({ albumNum: UserStore.albumNum })
+		try {
+			this.load()
+			UserStore.updateStatus(false)
+		} catch (error) {
+			console.log(error)
+		}
+
+		if (!this.state.classes) this.fetchData();
+	};
+
+	componentDidUpdate = (prevProps, prevState) => {
+		// console.log('isLoading', this.state.isLoading)
+		// console.log('userstore album num in updated', UserStore.albumNum)
+
+		if ((prevState.albumNum !== UserStore.albumNum) && UserStore.updated) {
+			console.log('updated');
+			this.fetchData(UserStore.albumNum);
+		}
+	};
+
+	fetchData = async (albumNum) => {
+		console.log('fetchData', albumNum)
+		let response = await fetch(
+			`http://ec2-18-220-112-71.us-east-2.compute.amazonaws.com/api/${albumNum}`
+		);
+		let data = await response.json();
+		console.log('ended fetching')
+		this.save(data);
+		this.setState({
+			classes: data,
+			albumNum,
+		});
+		UserStore.updateStatus(false)
+	};
+
+	transformData = () => {
+		let output = {};
+		let firstDayInMonth = {};
+		this.state.classes &&
+			Object.values(this.state.classes).forEach(item => {
+				if (output[item.Date]) {
+					output[item.Date].push(item);
+				} else output[item.Date] = [item];
+				if (
+					firstDayInMonth[item.Date.slice(5, 7)] &&
+					item.Date < firstDayInMonth[item.Date.slice(5, 7)]
+				)
+					firstDayInMonth[item.Date.slice(5, 7)] = item.Date;
+				if (!firstDayInMonth[item.Date.slice(5, 7)])
+					firstDayInMonth[item.Date.slice(5, 7)] = item.Date;
+			});
+		return { output, firstDayInMonth };
+	};
+
+
+	renderData = albumNum => {
+		return Object.values(this.transformData().output)
+	}
+
+	render() {
+		return (
+			< View style={styles.container} >
+				<View style={styles.actionButton}>
+					<FloatingButton />
+				</View>
+				{
+					UserStore.updated ? <Text>Loading</Text> :
+						<View>
+
+							<FlatList
+								data={this.renderData(UserStore.albumNum)}
+								renderItem={({ item }) => (
+									<TimetableItem
+										items={item}
+										firstDayInMonth={this.transformData().firstDayInMonth}
+									/>
+								)}
+								keyExtractor={(item, index) => index.toString()}
+								initialNumToRender={2}
+							/>
+						</View>}
+			</View >
+		);
+	}
+}

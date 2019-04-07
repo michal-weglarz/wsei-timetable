@@ -1,0 +1,97 @@
+Date,Day,Start,End,Hours,Subject,Classrom,Lecturer,ClassID
+2019-03-26,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-03-26,Wtorek,18:45,20:15,2,Wychowanie Fizyczne,Sala W-F Sala Gimnastyczna,Miklowski Marek,IT/S/1 108 Ćw 2
+2019-03-27,Środa,11:45,13:15,2,Język Obcy Rok I Semestr Letni,Kopenhaga,Nowińska Aneta,IT/S/1 101 Ćw 6
+2019-03-27,Środa,17:00,18:30,2,Architektura Systemów Komputerowych,Praga,Gajer Mirosław,IT/S/1 102 Kon 1
+2019-03-28,Czwartek,08:15,09:45,2,Wprowadzenie do Programowania,Praga,Molenda Krzysztof,IT/S/1 106 Wyk 1
+2019-03-28,Czwartek,11:45,13:15,2,Architektura Systemów Komputerowych,Berlin,Gajer Mirosław,IT/S/1 102 Lab 4
+2019-03-28,Czwartek,15:15,16:45,2,Wprowadzenie do Technologii Webowych,San Francisco,Brzeziak Adam,IT/S/1 107 Lab 1
+2019-03-29,Piątek,11:45,13:15,2,Psychologia,Praga,Gibek Katarzyna,IT/S/1 103 Kon 1
+2019-04-02,Wtorek,08:15,09:45,2,Wprowadzenie do Technologii Webowych,Praga,Brzeziak Adam,IT/S/1 107 Kon 1
+2019-04-02,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-04-02,Wtorek,18:45,20:15,2,Wychowanie Fizyczne,Sala W-F Sala Gimnastyczna,Miklowski Marek,IT/S/1 108 Ćw 2
+2019-04-03,Środa,11:45,13:15,2,Język Obcy Rok I Semestr Letni,Kopenhaga,Nowińska Aneta,IT/S/1 101 Ćw 6
+2019-04-03,Środa,18:35,20:05,2,Systemy Operacyjne,Praga,Szeląg Marek,IT/S/1 105 Kon 1
+2019-04-04,Czwartek,08:15,09:45,2,Wprowadzenie do Programowania,Praga,Molenda Krzysztof,IT/S/1 106 Wyk 1
+2019-04-04,Czwartek,11:45,13:15,2,Architektura Systemów Komputerowych,Nowy York,Gajer Mirosław,IT/S/1 102 Lab 4
+2019-04-04,Czwartek,15:15,16:45,2,Wprowadzenie do Technologii Webowych,San Francisco,Brzeziak Adam,IT/S/1 107 Lab 1
+2019-04-04,Czwartek,17:00,18:30,2,Sieci Komputerowe,Montreal,Godny Maciej,IT/S/1 109 Lab 6
+2019-04-04,Czwartek,18:35,20:05,2,Systemy Operacyjne,Nowy York,Szeląg Marek,IT/S/1 105 Lab 7
+2019-04-05,Piątek,11:45,13:15,2,Psychologia,Praga,Gibek Katarzyna,IT/S/1 103 Kon 1
+2019-04-09,Wtorek,08:15,09:45,2,Wprowadzenie do Technologii Webowych,Praga,Brzeziak Adam,IT/S/1 107 Kon 1
+2019-04-09,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-04-09,Wtorek,18:45,20:15,2,Wychowanie Fizyczne,Sala W-F Sala Gimnastyczna,Miklowski Marek,IT/S/1 108 Ćw 2
+2019-04-10,Środa,11:45,13:15,2,Język Obcy Rok I Semestr Letni,Kopenhaga,Nowińska Aneta,IT/S/1 101 Ćw 6
+2019-04-10,Środa,17:00,18:30,2,Architektura Systemów Komputerowych,Praga,Gajer Mirosław,IT/S/1 102 Kon 1
+2019-04-11,Czwartek,08:15,09:45,2,Wprowadzenie do Programowania,Praga,Molenda Krzysztof,IT/S/1 106 Wyk 1
+2019-04-11,Czwartek,11:45,13:15,2,Architektura Systemów Komputerowych,Berlin,Gajer Mirosław,IT/S/1 102 Lab 4
+2019-04-11,Czwartek,15:15,16:45,2,Wprowadzenie do Technologii Webowych,San Francisco,Brzeziak Adam,IT/S/1 107 Lab 1
+2019-04-12,Piątek,08:15,09:45,2,Statystyka Opisowa,Meksyk,Szydłowski Marcin,IT/S/1 104 Ćw 1
+2019-04-12,Piątek,11:45,13:15,2,Psychologia,Praga,Gibek Katarzyna,IT/S/1 103 Kon 1
+2019-04-12,Piątek,13:30,15:00,2,Statystyka Opisowa,Praga,Malik Gabriela,IT/S/1 104 Wyk 1
+2019-04-16,Wtorek,08:15,09:45,2,Wprowadzenie do Technologii Webowych,Praga,Brzeziak Adam,IT/S/1 107 Kon 1
+2019-04-16,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-04-16,Wtorek,18:45,20:15,2,Wychowanie Fizyczne,Sala W-F Sala Gimnastyczna,Miklowski Marek,IT/S/1 108 Ćw 2
+2019-04-17,Środa,11:45,13:15,2,Język Obcy Rok I Semestr Letni,Kopenhaga,Nowińska Aneta,IT/S/1 101 Ćw 6
+2019-04-17,Środa,18:35,20:05,2,Systemy Operacyjne,Praga,Szeląg Marek,IT/S/1 105 Kon 1
+2019-04-23,Wtorek,08:15,09:45,2,Wprowadzenie do Technologii Webowych,Praga,Brzeziak Adam,IT/S/1 107 Kon 1
+2019-04-23,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-04-24,Środa,11:45,13:15,2,Język Obcy Rok I Semestr Letni,Kopenhaga,Nowińska Aneta,IT/S/1 101 Ćw 6
+2019-04-24,Środa,17:00,18:30,2,Architektura Systemów Komputerowych,Praga,Gajer Mirosław,IT/S/1 102 Kon 1
+2019-04-25,Czwartek,08:15,09:45,2,Wprowadzenie do Programowania,Praga,Molenda Krzysztof,IT/S/1 106 Wyk 1
+2019-04-25,Czwartek,11:45,13:15,2,Architektura Systemów Komputerowych,Berlin,Gajer Mirosław,IT/S/1 102 Lab 4
+2019-04-25,Czwartek,15:15,16:45,2,Wprowadzenie do Technologii Webowych,San Francisco,Brzeziak Adam,IT/S/1 107 Lab 1
+2019-04-26,Piątek,08:15,09:45,2,Statystyka Opisowa,Meksyk,Szydłowski Marcin,IT/S/1 104 Ćw 1
+2019-04-26,Piątek,11:45,13:15,2,Psychologia,Praga,Gibek Katarzyna,IT/S/1 103 Kon 1
+2019-04-26,Piątek,13:30,15:00,2,Statystyka Opisowa,Praga,Malik Gabriela,IT/S/1 104 Wyk 1
+2019-04-30,Wtorek,08:15,09:45,2,Wprowadzenie do Technologii Webowych,Praga,Brzeziak Adam,IT/S/1 107 Kon 1
+2019-04-30,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-04-30,Wtorek,18:45,20:15,2,Wychowanie Fizyczne,Sala W-F Sala Gimnastyczna,Miklowski Marek,IT/S/1 108 Ćw 2
+2019-05-02,Czwartek,11:45,13:15,2,Architektura Systemów Komputerowych,Berlin,Gajer Mirosław,IT/S/1 102 Lab 4
+2019-05-02,Czwartek,15:15,16:45,2,Wprowadzenie do Technologii Webowych,San Francisco,Brzeziak Adam,IT/S/1 107 Lab 1
+2019-05-02,Czwartek,17:00,18:30,2,Sieci Komputerowe,Montreal,Godny Maciej,IT/S/1 109 Lab 6
+2019-05-02,Czwartek,18:35,20:05,2,Systemy Operacyjne,Nowy York,Szeląg Marek,IT/S/1 105 Lab 7
+2019-05-07,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-05-07,Wtorek,18:45,20:15,2,Wychowanie Fizyczne,Sala W-F Sala Gimnastyczna,Miklowski Marek,IT/S/1 108 Ćw 2
+2019-05-08,Środa,11:45,13:15,2,Język Obcy Rok I Semestr Letni,Kopenhaga,Nowińska Aneta,IT/S/1 101 Ćw 6
+2019-05-08,Środa,17:00,18:30,2,Architektura Systemów Komputerowych,Praga,Gajer Mirosław,IT/S/1 102 Kon 1
+2019-05-09,Czwartek,15:15,16:45,2,Wprowadzenie do Technologii Webowych,San Francisco,Brzeziak Adam,IT/S/1 107 Lab 1
+2019-05-10,Piątek,08:15,09:45,2,Statystyka Opisowa,Meksyk,Szydłowski Marcin,IT/S/1 104 Ćw 1
+2019-05-10,Piątek,11:45,13:15,2,Psychologia,Praga,Gibek Katarzyna,IT/S/1 103 Kon 1
+2019-05-10,Piątek,13:30,15:00,2,Statystyka Opisowa,Praga,Malik Gabriela,IT/S/1 104 Wyk 1
+2019-05-14,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-05-14,Wtorek,18:45,20:15,2,Wychowanie Fizyczne,Sala W-F Sala Gimnastyczna,Miklowski Marek,IT/S/1 108 Ćw 2
+2019-05-15,Środa,11:45,13:15,2,Język Obcy Rok I Semestr Letni,Kopenhaga,Nowińska Aneta,IT/S/1 101 Ćw 6
+2019-05-15,Środa,18:35,20:05,2,Sieci Komputerowe,Praga,Godny Maciej,IT/S/1 109 Kon 2
+2019-05-16,Czwartek,15:15,16:45,2,Wprowadzenie do Technologii Webowych,San Francisco,Brzeziak Adam,IT/S/1 107 Lab 1
+2019-05-16,Czwartek,17:00,18:30,2,Sieci Komputerowe,Montreal,Godny Maciej,IT/S/1 109 Lab 6
+2019-05-16,Czwartek,18:35,20:05,2,Systemy Operacyjne,Nowy York,Szeląg Marek,IT/S/1 105 Lab 7
+2019-05-17,Piątek,08:15,09:45,2,Statystyka Opisowa,Meksyk,Szydłowski Marcin,IT/S/1 104 Ćw 1
+2019-05-17,Piątek,11:45,13:15,2,Psychologia,Praga,Gibek Katarzyna,IT/S/1 103 Kon 1
+2019-05-17,Piątek,13:30,15:00,2,Statystyka Opisowa,Praga,Malik Gabriela,IT/S/1 104 Wyk 1
+2019-05-21,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-05-21,Wtorek,18:45,20:15,2,Wychowanie Fizyczne,Sala W-F Sala Gimnastyczna,Miklowski Marek,IT/S/1 108 Ćw 2
+2019-05-22,Środa,11:45,13:15,2,Język Obcy Rok I Semestr Letni,Kopenhaga,Nowińska Aneta,IT/S/1 101 Ćw 6
+2019-05-22,Środa,17:00,18:30,2,Architektura Systemów Komputerowych,Praga,Gajer Mirosław,IT/S/1 102 Kon 1
+2019-05-23,Czwartek,15:15,16:45,2,Wprowadzenie do Technologii Webowych,San Francisco,Brzeziak Adam,IT/S/1 107 Lab 1
+2019-05-24,Piątek,08:15,09:45,2,Statystyka Opisowa,Meksyk,Szydłowski Marcin,IT/S/1 104 Ćw 1
+2019-05-24,Piątek,11:45,13:15,2,Psychologia,Praga,Gibek Katarzyna,IT/S/1 103 Kon 1
+2019-05-24,Piątek,13:30,15:00,2,Statystyka Opisowa,Praga,Malik Gabriela,IT/S/1 104 Wyk 1
+2019-05-28,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-05-28,Wtorek,18:45,20:15,2,Wychowanie Fizyczne,Sala W-F Sala Gimnastyczna,Miklowski Marek,IT/S/1 108 Ćw 2
+2019-05-29,Środa,11:45,13:15,2,Język Obcy Rok I Semestr Letni,Kopenhaga,Nowińska Aneta,IT/S/1 101 Ćw 6
+2019-05-29,Środa,18:35,20:05,2,Sieci Komputerowe,Praga,Godny Maciej,IT/S/1 109 Kon 2
+2019-05-30,Czwartek,17:00,18:30,2,Statystyka Opisowa,Nowy York,Szydłowski Marcin,IT/S/1 104 Lab 7
+2019-05-31,Piątek,08:15,09:45,2,Statystyka Opisowa,Meksyk,Szydłowski Marcin,IT/S/1 104 Ćw 1
+2019-05-31,Piątek,11:45,13:15,2,Psychologia,Praga,Gibek Katarzyna,IT/S/1 103 Kon 1
+2019-05-31,Piątek,13:30,15:00,2,Statystyka Opisowa,Praga,Malik Gabriela,IT/S/1 104 Wyk 1
+2019-06-04,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-06-04,Wtorek,18:45,20:15,2,Wychowanie Fizyczne,Sala W-F Sala Gimnastyczna,Miklowski Marek,IT/S/1 108 Ćw 2
+2019-06-05,Środa,11:45,13:15,2,Język Obcy Rok I Semestr Letni,Kopenhaga,Nowińska Aneta,IT/S/1 101 Ćw 6
+2019-06-06,Czwartek,17:00,18:30,2,Statystyka Opisowa,Nowy York,Szydłowski Marcin,IT/S/1 104 Lab 7
+2019-06-07,Piątek,08:15,09:45,2,Statystyka Opisowa,Meksyk,Szydłowski Marcin,IT/S/1 104 Ćw 1
+2019-06-07,Piątek,11:45,13:15,2,Psychologia,Praga,Gibek Katarzyna,IT/S/1 103 Kon 1
+2019-06-11,Wtorek,11:45,13:15,2,Wprowadzenie do Programowania,Montreal,Chodacki Miłoslaw,IT/S/1 106 Lab 3
+2019-06-12,Środa,11:45,13:15,2,Język Obcy Rok I Semestr Letni,Kopenhaga,Nowińska Aneta,IT/S/1 101 Ćw 6
+2019-06-12,Środa,18:35,20:05,2,Sieci Komputerowe,Praga,Godny Maciej,IT/S/1 109 Kon 2
+2019-06-14,Piątek,08:15,09:45,2,Statystyka Opisowa,Meksyk,Szydłowski Marcin,IT/S/1 104 Ćw 1
