@@ -33,7 +33,7 @@ export default class App extends React.Component {
 		if (!this.state.isReady)
 			return (
 				<View
-					style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}
+					style={{ justifyContent: 'center', alignItems: 'center' }}
 				>
 					<LoadingScreen />
 				</View>

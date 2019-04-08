@@ -5,8 +5,7 @@ const STORE = 'wsei-timetbale::user';
 class UserStore {
 	@observable
 	albumNum = '';
-	@observable
-	updated = 'false';
+	updated = false;
 
 	constructor() {
 		this.load();

@@ -47,6 +47,10 @@ export default class Timetable extends React.Component {
 				console.log('Data successfully loaded!')
 				this.setState({ classes: JSON.parse(data) })
 			}
+			else {
+				console.log("NUL LKURWA")
+				this.fetchData(UserStore.albumNum)
+			}
 		} catch (error) {
 			console.log('Error while retrieving data')
 			console.log(error)
@@ -65,25 +69,19 @@ export default class Timetable extends React.Component {
 	componentDidMount = () => {
 		Expo.ScreenOrientation.allowAsync(Expo.ScreenOrientation.Orientation.PORTRAIT);
 		this.setState({ albumNum: UserStore.albumNum })
-		try {
-			this.load()
-			UserStore.updateStatus(false)
-		} catch (error) {
-			console.log(error)
-		}
-
-		if (!this.state.classes) this.fetchData();
+		console.log('async storage items', AsyncStorage.getItem(STORE))
+		this.load()
+		UserStore.updateStatus(false)
 	};
 
 	componentDidUpdate = (prevProps, prevState) => {
-		// console.log('isLoading', this.state.isLoading)
-		// console.log('userstore album num in updated', UserStore.albumNum)
+		if (UserStore.updated) {
 
-		if ((prevState.albumNum !== UserStore.albumNum) && UserStore.updated) {
 			console.log('updated');
+
 			this.fetchData(UserStore.albumNum);
 		}
-	};
+	}
 
 	fetchData = async (albumNum) => {
 		console.log('fetchData', albumNum)
@@ -131,9 +129,13 @@ export default class Timetable extends React.Component {
 					<FloatingButton />
 				</View>
 				{
-					UserStore.updated ? <Text>Loading</Text> :
+					UserStore.updated ?
+						<View
+							style={{ justifyContent: 'center', alignItems: 'center' }}
+						>
+							<LoadingScreen />
+						</View> :
 						<View>
-
 							<FlatList
 								data={this.renderData(UserStore.albumNum)}
 								renderItem={({ item }) => (
