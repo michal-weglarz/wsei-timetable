@@ -20,7 +20,7 @@ pandas==0.24.1
 pathlib==1.0.1
 python-dateutil==2.8.0
 pytz==2018.9
-PyYAML==3.13
+PyYAML==5.4
 relativetimebuilder==0.2.0
 requests==2.21.0
 selenium==3.141.0
